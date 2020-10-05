@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29613.14
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{027C7548-D473-4AEA-B97B-B0C2196BD696}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{F502C179-7AD5-496D-BB06-C71DBFDBEBC1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite", "Composite\Composite.csproj", "{1FA08ACB-A5C5-4B1B-8DD4-4C39ECA6E8A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{434670FA-F1CC-480C-B146-DF872BD5617B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyweight.csproj", "{9BD7F8E1-19DE-42C7-A373-528D2479D9B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{1FA08ACB-A5C5-4B1B-8DD4-4C39ECA6E8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1FA08ACB-A5C5-4B1B-8DD4-4C39ECA6E8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1FA08ACB-A5C5-4B1B-8DD4-4C39ECA6E8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434670FA-F1CC-480C-B146-DF872BD5617B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434670FA-F1CC-480C-B146-DF872BD5617B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434670FA-F1CC-480C-B146-DF872BD5617B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434670FA-F1CC-480C-B146-DF872BD5617B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD7F8E1-19DE-42C7-A373-528D2479D9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD7F8E1-19DE-42C7-A373-528D2479D9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD7F8E1-19DE-42C7-A373-528D2479D9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD7F8E1-19DE-42C7-A373-528D2479D9B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +56,8 @@ Global
 		{DC5F2FB6-133C-4BE5-A0B1-D89FD69B987F} = {00A2C8D2-8C41-485F-992A-2AA65E63902D}
 		{F502C179-7AD5-496D-BB06-C71DBFDBEBC1} = {00A2C8D2-8C41-485F-992A-2AA65E63902D}
 		{1FA08ACB-A5C5-4B1B-8DD4-4C39ECA6E8A0} = {00A2C8D2-8C41-485F-992A-2AA65E63902D}
+		{434670FA-F1CC-480C-B146-DF872BD5617B} = {00A2C8D2-8C41-485F-992A-2AA65E63902D}
+		{9BD7F8E1-19DE-42C7-A373-528D2479D9B8} = {00A2C8D2-8C41-485F-992A-2AA65E63902D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02059CB1-DFAF-46A2-AADA-8C056F3B673F}
