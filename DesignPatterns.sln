@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Flyweight\Flyw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{C8FE7ABA-17DB-4A9F-9A43-5F386752E867}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavior", "Behavior", "{71BBB805-A355-4ED7-BC94-129B010D8B9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{DD2EAA78-9208-470C-B8C6-49BAFCFFEF7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,10 @@ Global
 		{C8FE7ABA-17DB-4A9F-9A43-5F386752E867}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8FE7ABA-17DB-4A9F-9A43-5F386752E867}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8FE7ABA-17DB-4A9F-9A43-5F386752E867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2EAA78-9208-470C-B8C6-49BAFCFFEF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2EAA78-9208-470C-B8C6-49BAFCFFEF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2EAA78-9208-470C-B8C6-49BAFCFFEF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2EAA78-9208-470C-B8C6-49BAFCFFEF7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +73,7 @@ Global
 		{434670FA-F1CC-480C-B146-DF872BD5617B} = {00A2C8D2-8C41-485F-992A-2AA65E63902D}
 		{9BD7F8E1-19DE-42C7-A373-528D2479D9B8} = {00A2C8D2-8C41-485F-992A-2AA65E63902D}
 		{C8FE7ABA-17DB-4A9F-9A43-5F386752E867} = {00A2C8D2-8C41-485F-992A-2AA65E63902D}
+		{DD2EAA78-9208-470C-B8C6-49BAFCFFEF7D} = {71BBB805-A355-4ED7-BC94-129B010D8B9B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {02059CB1-DFAF-46A2-AADA-8C056F3B673F}
