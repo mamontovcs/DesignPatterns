@@ -5,7 +5,7 @@ namespace Adapter
 {
     internal class MessageService
     {
-        public JArray Publish(string message)
+        public JArray ConvertMesageToJson(string message)
         {
             JArray array = new JArray();
             JValue text = new JValue(message);

@@ -17,7 +17,7 @@ namespace Adapter
 
         public string Publish(string message)
         {
-            var json = _messageService.Publish(message);
+            var json = _messageService.ConvertMesageToJson(message);
 
             return json.ToString();
         }

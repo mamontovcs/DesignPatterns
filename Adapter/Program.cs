@@ -12,7 +12,7 @@ namespace Adapter
         static void Main(string[] args)
         {
             var service = new MessageService();
-            service.Publish("Message from original service");
+            service.ConvertMesageToJson("Message from original service");
 
 
             var adapter = new MessageServiceAdapter(service);
